@@ -45,7 +45,7 @@ mvn clean install
 
 3. **Run the Application**:
 mvn spring-boot:run
-The server starts at http://localhost:8080.
+- The server starts at http://localhost:8080.
 
 ## API Documentation
 1. Create a Training Center (POST)
