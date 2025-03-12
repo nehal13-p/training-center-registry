@@ -137,10 +137,10 @@ URL: http://localhost:8080/api/training-centers.
 ## Database Access
 H2 Console URL: http://localhost:8080/h2-console
 
-Credentials:
-JDBC URL: jdbc:h2:mem:trainingdb
-Username: sa
-Password: (leave empty)
+## Credentials:
+1. JDBC URL: jdbc:h2:mem:trainingdb
+2. Username: sa
+3. Password: (leave empty)
 
 ## Sample Queries:
 
