@@ -70,7 +70,7 @@ Sample Request:
   "contactEmail": "contact@techtraining.com",
   "contactPhone": "9876543210"
 }
-Success Response (201 Created):
+- Success Response (201 Created):
 
 
 {
@@ -113,12 +113,12 @@ Sample Response (200 OK):
 
 ## Validation Rules
 Field - Validation Criteria
-centerName - Mandatory, ≤40 characters.
-centerCode - Mandatory, exactly 12 alphanumeric characters (e.g., Abc12345678).
-address - Nested object with mandatory detailedAddress, city, state, and pincode.
-contactPhone - Mandatory, 10 digits (e.g., 9876543210).
-contactEmail - Valid format if provided (e.g., user@example.com).
-createdOn - Auto-populated by the server (user input ignored).
+- centerName - Mandatory, ≤40 characters.
+- centerCode - Mandatory, exactly 12 alphanumeric characters (e.g., Abc12345678).
+- address - Nested object with mandatory detailedAddress, city, state, and pincode.
+- contactPhone - Mandatory, 10 digits (e.g., 9876543210).
+- contactEmail - Valid format if provided (e.g., user@example.com).
+- createdOn - Auto-populated by the server (user input ignored).
 
 ## Testing the APIs
 
