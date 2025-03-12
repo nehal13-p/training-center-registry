@@ -28,8 +28,8 @@ A Spring Boot application for managing government-funded training centers. Provi
 
 ## Prerequisites
 - Java 17
-- Maven 3.8+
-- Postman/cURL (for API testing)
+- Maven 4.0.0
+- Postman (for API testing)
 
 ---
 
