@@ -47,7 +47,7 @@ mvn clean install
 mvn spring-boot:run
 The server starts at http://localhost:8080.
 
-# API Documentation
+## API Documentation
 1. Create a Training Center (POST)
 
 Endpoint: POST /api/training-centers
@@ -111,7 +111,7 @@ Sample Response (200 OK):
   }
 ]
 
-# Validation Rules
+## Validation Rules
 Field - Validation Criteria
 centerName - Mandatory, ≤40 characters.
 centerCode - Mandatory, exactly 12 alphanumeric characters (e.g., Abc12345678).
@@ -120,7 +120,7 @@ contactPhone - Mandatory, 10 digits (e.g., 9876543210).
 contactEmail - Valid format if provided (e.g., user@example.com).
 createdOn - Auto-populated by the server (user input ignored).
 
-# Testing the APIs
+## Testing the APIs
 
 Using Postman:
 
@@ -134,7 +134,7 @@ Fetch All Centers:
 Method: GET
 URL: http://localhost:8080/api/training-centers.
 
-# Database Access
+## Database Access
 H2 Console URL: http://localhost:8080/h2-console
 
 Credentials:
@@ -142,7 +142,7 @@ JDBC URL: jdbc:h2:mem:trainingdb
 Username: sa
 Password: (leave empty)
 
-# Sample Queries:
+## Sample Queries:
 
 -- View all training centers
 SELECT * FROM TRAINING_CENTER;
@@ -151,7 +151,7 @@ SELECT * FROM TRAINING_CENTER;
 SELECT * FROM COURSES_OFFERED;
 
 
-# Project Structure
+## Project Structure
 
 src/
 ├── main/
@@ -169,7 +169,7 @@ src/
 │       └── application.properties        # H2 config, JPA settings
 
 
-# Technologies Used -
+## Technologies Used -
 
 1. Spring Boot 3.1.5
 2. H2 Database (in-memory)
@@ -177,7 +177,7 @@ src/
 4. Hibernate Validator
 5. Maven
 
-# Troubleshooting
+## Troubleshooting
 1. Port Conflict: Change the port in application.properties:
 server.port=8081
 2. Validation Errors: Check the HTTP 400 response for field-specific errors.
