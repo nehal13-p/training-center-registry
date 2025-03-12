@@ -112,7 +112,7 @@ Sample Response (200 OK):
 ]
 
 ## Validation Rules
-Field - Validation Criteria
+- Field - Validation Criteria
 - centerName - Mandatory, ≤40 characters.
 - centerCode - Mandatory, exactly 12 alphanumeric characters (e.g., Abc12345678).
 - address - Nested object with mandatory detailedAddress, city, state, and pincode.
