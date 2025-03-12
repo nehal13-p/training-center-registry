@@ -37,7 +37,7 @@ A Spring Boot application for managing government-funded training centers. Provi
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/training-center-registry.git
+   git clone https://github.com/nehal13-p/training-center-registry.git
    cd training-center-registry
 
 Build the Project:
