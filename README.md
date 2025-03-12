@@ -174,17 +174,15 @@ src/
 
 Technologies Used -
 
-Spring Boot 3.1.5
-H2 Database (in-memory)
-Spring Data JPA
-Hibernate Validator
-Maven
+1. Spring Boot 3.1.5
+2. H2 Database (in-memory)
+3. Spring Data JPA
+4. Hibernate Validator
+5. Maven
 
 Troubleshooting
-Port Conflict: Change the port in application.properties:
-
-properties
+# Port Conflict: Change the port in application.properties:
 server.port=8081
-Validation Errors: Check the HTTP 400 response for field-specific errors.
-H2 Connection Issues: Ensure the JDBC URL is jdbc:h2:mem:trainingdb.
-Data Not Persisting: Restart the app and recheck the H2 console.
+# Validation Errors: Check the HTTP 400 response for field-specific errors.
+# H2 Connection Issues: Ensure the JDBC URL is jdbc:h2:mem:trainingdb.
+# Data Not Persisting: Restart the app and recheck the H2 console.
