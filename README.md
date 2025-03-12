@@ -152,7 +152,7 @@ SELECT * FROM COURSES_OFFERED;
 
 
 ## Project Structure
-
+```
 src/
 ├── main/
 │   ├── java/
@@ -167,7 +167,7 @@ src/
 │   │               └── exception/        # Error handling (GlobalExceptionHandler)
 │   └── resources/
 │       └── application.properties        # H2 config, JPA settings
-
+```
 
 ## Technologies Used -
 
